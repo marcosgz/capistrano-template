@@ -8,9 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Capistrano::Template::VERSION
   gem.authors       = ["Tony Pitluga"]
   gem.email         = ["tony.pitluga@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.summary       = %q{Capistrano Templates}
+  gem.homepage      = "https://github.com/pitluga/capistrano-template"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
