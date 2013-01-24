@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'capistrano/template/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "capistrano-template"
+  gem.name          = "marcosgz-cap-template"
   gem.version       = Capistrano::Template::VERSION
-  gem.authors       = ["Tony Pitluga"]
-  gem.email         = ["tony.pitluga@gmail.com"]
+  gem.authors       = ["Marcos G. Zimmermann", "Tony Pitluga"]
+  gem.email         = ["mgzmaster@gmail.com", "tony.pitluga@gmail.com"]
   gem.summary       = %q{Capistrano Templates}
-  gem.homepage      = "https://github.com/pitluga/capistrano-template"
+  gem.homepage      = "https://github.com/marcosgz/capistrano-template"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
