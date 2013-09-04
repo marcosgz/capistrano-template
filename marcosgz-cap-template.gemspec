@@ -10,6 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["mgzmaster@gmail.com", "tony.pitluga@gmail.com"]
   gem.summary       = %q{Capistrano Templates}
   gem.homepage      = "https://github.com/marcosgz/capistrano-template"
+  gem.license       = 'MIT'
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
